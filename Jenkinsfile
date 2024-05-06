@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'TWOJ_ADRES_DO_REPO', branch: 'main'
+                git url: 'https://github.com/Lademann17/app-nodejs.git', branch: 'main'
             }
         }
 
